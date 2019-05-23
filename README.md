@@ -1,7 +1,7 @@
 # MP4-Generator
 A simple class to generate MP4 video by mixing images, videos and audio tracks
 
-'''java
+```java
 
 File[] imageFiles = new File("images").listFiles();
 ArrayList<Frame> frameArray = new ArrayList<>();
@@ -82,3 +82,4 @@ try {
 	e.printStackTrace();
 }
     
+```
